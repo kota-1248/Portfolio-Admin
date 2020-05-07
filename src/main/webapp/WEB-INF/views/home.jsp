@@ -10,5 +10,8 @@
 </h1>
 
 <P>  The time on the server is ${serverTime}. </P>
+<form method="get" action="<%=request.getContextPath()%>/updateSample">
+<button >button</button></form>
+
 </body>
 </html>
