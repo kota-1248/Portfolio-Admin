@@ -6,11 +6,11 @@
 </head>
 <body>
 <h1>
-	Hello world!  
+	Hello world!
 </h1>
 
 <P>  The time on the server is ${serverTime}. </P>
-<form method="get" action="<%=request.getContextPath()%>/updateSample">
+<form method="get" action="<%=request.getContextPath()%>/skillUpload">
 <button >button</button></form>
 
 </body>
